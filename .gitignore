@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Model weights (downloaded at runtime)
+model/import/*.pt
+model/import/*.pth
+
+# Runtime artifacts
+uploads/
+api/static/uploads/
+api/static/processed/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
