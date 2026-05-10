@@ -10,8 +10,6 @@ Three services, each in its own container:
 - **model** — YOLOv5 inference worker
 - **redis** — job queue between the API and the model
 
-![Project Architecture](/utils/imgs/Project_arch.png)
-
 ## Run the app
 
 ```bash

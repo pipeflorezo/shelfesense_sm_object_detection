@@ -23,3 +23,6 @@ api/static/processed/
 .idea/
 .vscode/
 *.swp
+
+# Claude Code
+.claude/
